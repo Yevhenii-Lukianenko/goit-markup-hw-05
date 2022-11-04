@@ -675,7 +675,7 @@ ul {
 
   opacity: 0;
   transform: translateY(100%);
-  transition: transform 250ms var(--transition);
+  transition: transform 250ms var(--transition), opacity 250ms var(--transition);
 }
 
 .project-overlay-text {
